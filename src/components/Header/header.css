@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #101820ff;
+}
+.navbar-position {
+  display: flex;
+  padding: 10px 50px;
+  justify-content: space-between;
+  background-color: #fee715ff;
+  /* background-color: #101820FF; */
+}
+
+.heading {
+  font-size: 28px;
+  font-weight: 600;
+  margin-top: 7px;
+  text-align: center;
+  display: grid;
+  flex: 1 1;
+  height: 100%;
+  font-family: "Tilt Neon", cursive;
+  place-items: center;
+  /* color: #fff; */
+}
+
+.rightSide-div {
+  display: flex;
+}
+
+.dropdown-button {
+  background-color: #545c80;
+  border: 2px solid rgb(247, 247, 198);
+  color: rgb(247, 247, 198);
+  border-radius: 8px;
+  width: 80px;
+  height: 50px;
+  font-size: 20px;
+  margin-right: 20px;
+}
+.dropdown-button:focus {
+  outline-color: rgb(255, 255, 236);
+}
+
+option {
+  text-align: center;
+  font-size: 1.2rem;
+}
+option:focus {
+  padding: 10px;
+}
+
+.invite-button {
+  background-color: #545c80;
+  border: 1px solid darkslategrey;
+  border: 2px solid;
+  font-size: 20px;
+  width: 120px;
+  height: 50px;
+  border-radius: 8px;
+  color: rgb(247, 247, 198);
+}
+
+.homeSection-position {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 90%;
+  margin-left: 100px;
+  border-radius: 20px;
+  padding: 1rem;
+  padding-bottom: 0px;
+  margin-left: 100px;
+  grid-gap: 20px;
+  background-color: #545c80;
+  box-shadow: -2px 2px 3px rgb(107, 101, 101);
+  height: 100%;
+}
+.img1 {
+  background-image: url(https://media.licdn.com/dms/image/C4E0BAQGW5R2MpKSVQQ/company-logo_400_400/0/1637230736014?e=2147483647&v=beta&t=9rZj4qV9MuhknmGnWw3v1aV68XXH0Tmu8o6Lqg7mrN0);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 120px;
+  box-shadow: -2px 2px 3px rgb(107, 101, 101);
+  border-radius: 10px;
+}
